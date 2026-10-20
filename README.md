@@ -1,6 +1,6 @@
 # Synthetic Sales Analysis in R
 
-> **AI Assistance Declaration:** AI Assistance Declaration: I used ChatGPT (GPT-6, October 19, 2026) to draft documentation structure, example wording, and Markdown formatting. Prompts used: see Appendix.md. I will verify outputs using RStudio/Posit Cloud rendering, GitHub preview, independent review of the R script, and manual spot-checks. All final calculations must be completed and checked by me. I am responsible for the accuracy and originality of this work.
+> ** AI Assistance Declaration: I used ChatGPT (GPT-6, October 19, 2026) to draft documentation structure, example wording, and Markdown formatting. Prompts used: see Appendix.md. I will verify outputs using RStudio/Posit Cloud rendering, GitHub preview, independent review of the R script, and manual spot-checks. All final calculations must be completed and checked by me. I am responsible for the accuracy and originality of this work.
 
 ## Overview
 This educational R project demonstrates a basic exploratory analysis of **synthetic** monthly sales. It reads a CSV file, checks its structure, prints summary statistics, and plots monthly sales.
