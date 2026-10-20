@@ -38,6 +38,10 @@ The R script was also executed independently. The synthetic dataset contained si
 
 The README and Reflection files were previewed on GitHub, and documentation improvements were made after review.
 
+### README Comparison
+
+I compared my project README with the tidyverse dplyr GitHub repository. Both use clear Markdown headings, installation instructions, and usage examples. My README is shorter because it documents a small educational project. I reviewed the organization and formatting to improve readability.
+
 ### Conclusion
 
 The main documentation, GitHub upload, R Markdown rendering, and data verification tasks have been completed successfully. The remaining unchecked items require final confirmation.
