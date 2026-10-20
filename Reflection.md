@@ -11,4 +11,4 @@ A strong README quickly explains the purpose of the project, required tools, inp
 ChatGPT helped draft a consistent document structure and suggest clearer wording. Its output is only a starting point: it cannot prove that code runs or that GitHub renders files correctly. I must review every claim against my project and test the examples myself.
 
 ## 3. How would you validate and improve the documentation?
-I would run the R script, knit the R Markdown document, inspect GitHub's README preview, and compare the README sections with a tidyverse repository. I would then fix any unclear instructions or rendering errors and record the changes in the appendix.
+I validated the R Markdown document by successfully knitting it in Posit Cloud. I reviewed the generated HTML report, checked the summary statistics, and confirmed that the sales chart appeared correctly. I also reviewed the README formatting on GitHub. I would further improve the documentation by comparing it with a tidyverse repository and recording any additional changes.
