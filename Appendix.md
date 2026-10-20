@@ -1,6 +1,6 @@
 # Appendix — AI Prompts and Verification
 
-> **AI Assistance Declaration:** AI Assistance Declaration: I used ChatGPT (GPT-6, October 19, 2026) to draft documentation structure, example wording, and Markdown formatting. Prompts used: see Appendix.md. I will verify outputs using RStudio/Posit Cloud rendering, GitHub preview, independent review of the R script, and manual spot-checks. All final calculations must be completed and checked by me. I am responsible for the accuracy and originality of this work.
+> ** AI Assistance Declaration: I used ChatGPT (GPT-6, October 19, 2026) to draft documentation structure, example wording, and Markdown formatting. Prompts used: see Appendix.md. I will verify outputs using RStudio/Posit Cloud rendering, GitHub preview, independent review of the R script, and manual spot-checks. All final calculations must be completed and checked by me. I am responsible for the accuracy and originality of this work.
 
 ## Tool and Date
 ChatGPT, GPT-6, October 19, 2026.
