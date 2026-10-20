@@ -21,10 +21,10 @@ These are the prompts represented in the drafting workflow; they should be revie
 ## Student Verification Checklist — In Progress
 - [ ] Read the official GitHub Markdown guide and compare structure with a real tidyverse README.
 - [ ] Run `source("sales_analysis.R")` in RStudio from the project root.
-- [ ] Knit `sales_analysis.Rmd` and inspect code chunks and chart.
-- [ ] Preview `README.md` and `Reflection.md` on GitHub.
+- [x] Knit `sales_analysis.Rmd` and inspect code chunks and chart.
+- [x] Preview `README.md` and `Reflection.md` on GitHub.
 - [ ] Independently check values and plot against the synthetic CSV; perform a manual spot-check.
 - [ ] Record at least two actual improvements after previewing.
 - [ ] Replace provisional reflection questions if the instructor supplied exact questions separately.
-- [ ] Publish to repository `markdown-buddy-hanin-helfawi`.
+- [x] Publish to repository `markdown-buddy-hanin-helfawi`.
 - [ ] Confirm final AI declaration describes checks actually completed.
