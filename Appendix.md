@@ -1,0 +1,30 @@
+# Appendix — AI Prompts and Verification
+
+> **AI Assistance Declaration:** AI Assistance Declaration: I used ChatGPT (GPT-6, October 19, 2026) to draft documentation structure, example wording, and Markdown formatting. Prompts used: see Appendix.md. I will verify outputs using RStudio/Posit Cloud rendering, GitHub preview, independent review of the R script, and manual spot-checks. All final calculations must be completed and checked by me. I am responsible for the accuracy and originality of this work.
+
+## Tool and Date
+ChatGPT, GPT-6, October 19, 2026.
+
+## Prompts and Key Responses
+1. **Seed (structure):** "Explain what sections a good GitHub README for an R data analysis project should include." **Key draft response:** Overview, Installation, Usage, Inputs, Outputs, License, and AI Disclosure.
+2. **Refinement:** "Revise the sections list so it’s concise and uses Markdown headers and bullet formatting." **Key draft response:** A heading-based outline with concise bullet lists.
+3. **Critique:** "Check the Markdown syntax for correctness and readability." **Key draft response:** Use consistent heading levels and fenced R code blocks.
+4. **README seed:** "Here’s a summary of my R project: a base R script analyzing fictional monthly sales from a CSV. Generate a professional README.md file using Markdown." **Key draft response:** The README.md draft in this repository.
+5. **README refinement:** "Add sections for Installation, Example Code, and License. Keep tone concise and professional." **Key draft response:** Installation, code example, and license statement added.
+6. **README critique:** "Review the Markdown for syntax errors and suggest 2 improvements for clarity." **Key draft response:** State CSV column names explicitly; clarify that the data are synthetic.
+7. **Rmd seed:** "Here’s my R script description: load synthetic sales, validate columns, summarize, and plot. Suggest Markdown formatting and code block examples." **Key draft response:** Purpose, Inputs, Script Walkthrough, Outputs, and Validation sections.
+8. **Rmd refinement:** "Add syntax highlighting and improve section organization (e.g., # Purpose, ## Inputs, ## Outputs)." **Key draft response:** A labeled R code chunk and consistent headings.
+9. **Rmd critique:** "Is the Markdown consistent with RMarkdown best practices?" **Key draft response:** Check YAML front matter, R code chunk fences, and renderability.
+
+These are the prompts represented in the drafting workflow; they should be reviewed against the student's actual AI conversation and revised if needed before submission.
+
+## Student Verification Checklist — Not Yet Completed
+- [ ] Read the official GitHub Markdown guide and compare structure with a real tidyverse README.
+- [ ] Run `source("sales_analysis.R")` in RStudio from the project root.
+- [ ] Knit `sales_analysis.Rmd` and inspect code chunks and chart.
+- [ ] Preview `README.md` and `Reflection.md` on GitHub.
+- [ ] Independently check values and plot against the synthetic CSV; perform a manual spot-check.
+- [ ] Record at least two actual improvements after previewing.
+- [ ] Replace provisional reflection questions if the instructor supplied exact questions separately.
+- [ ] Publish to repository `markdown-buddy-hanin-helfawi`.
+- [ ] Confirm final AI declaration describes checks actually completed.

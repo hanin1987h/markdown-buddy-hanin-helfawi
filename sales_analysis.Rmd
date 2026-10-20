@@ -1,0 +1,36 @@
+---
+title: "Documenting Synthetic Sales Analysis"
+author: "Hanin Helfawi"
+output: html_document
+---
+
+> **AI Assistance Declaration:** AI Assistance Declaration: I used ChatGPT (GPT-6, October 19, 2026) to draft documentation structure, example wording, and Markdown formatting. Prompts used: see Appendix.md. I will verify outputs using RStudio/Posit Cloud rendering, GitHub preview, independent review of the R script, and manual spot-checks. All final calculations must be completed and checked by me. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+Document a short base R script that reads fictional monthly sales, validates input columns, summarizes sales, and plots values.
+
+## Inputs
+- File: `data/synthetic_sales.csv`
+- Columns: `month` (text) and `sales` (numeric)
+- Data: synthetic educational examples only
+
+## Script Walkthrough
+The following code is equivalent to the key steps in `sales_analysis.R`.
+
+```{r analysis, echo=TRUE}
+sales <- read.csv("data/synthetic_sales.csv", stringsAsFactors = FALSE)
+stopifnot(all(c("month", "sales") %in% names(sales)))
+stopifnot(is.numeric(sales$sales), !anyNA(sales$sales))
+summary(sales$sales)
+plot(seq_along(sales$sales), sales$sales, type = "b",
+     xaxt = "n", xlab = "Month", ylab = "Sales",
+     main = "Synthetic Monthly Sales")
+axis(1, at = seq_along(sales$month), labels = sales$month)
+```
+
+## Outputs
+1. Summary statistics printed below the R code chunk.
+2. A line plot of sales by month.
+
+## Validation and Limitations
+Check that the CSV is present, that `sales` is numeric, and that the plot labels match the data. Run **Knit** in RStudio or Posit Cloud; successful rendering has not yet been independently confirmed. These fictional data should not support real business decisions.
