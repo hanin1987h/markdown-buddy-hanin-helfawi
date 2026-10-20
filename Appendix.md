@@ -18,7 +18,7 @@ ChatGPT, GPT-6, October 19, 2026.
 
 These are the prompts represented in the drafting workflow; they should be reviewed against the student's actual AI conversation and revised if needed before submission.
 
-## Student Verification Checklist — Not Yet Completed
+## Student Verification Checklist — In Progress
 - [ ] Read the official GitHub Markdown guide and compare structure with a real tidyverse README.
 - [ ] Run `source("sales_analysis.R")` in RStudio from the project root.
 - [ ] Knit `sales_analysis.Rmd` and inspect code chunks and chart.
